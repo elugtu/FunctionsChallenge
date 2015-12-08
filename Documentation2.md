@@ -1,19 +1,22 @@
 # Name: 
+solveWork()
 
 ## Examples:
-Insert examples here.
+println(solveWork(3.74, 5.68, 0));  
 
 ## Description:
-Insert description here
+Calculates the amount of work based on the amount of force, the distance it moved, and the angle it went from originally.
 
 ## Syntax:
-Demonstrate syntax here
+solveWork(force, dist, theta)
 
 ##Parameters: 
-Name and describe parameters here
+float force: the force of the object you are trying to calculate
+float dist: the distance that the object moved from the original location
+float theta: the angle that the object moved from
 
 ##Returns:
-What type of data does it return?
+returns float
 
 ##Other notes:
-Anything else?
+float theta must be in degrees. Convert radians to degrees before using this function.
